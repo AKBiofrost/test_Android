@@ -6,5 +6,8 @@
     <color name="SombraMorada">#F401BF</color>
     <color name="wallpaper">#23292D</color>
     <color name="WallpaperInterno">#394147</color>
+    <color name="gris">#565C61</color>
+    <color name="fondotransparente">#40C2185B</color>
     <color name="texto">#FFFFFF</color>
+    <color name="azul">#0E96C1</color>
 </resources>

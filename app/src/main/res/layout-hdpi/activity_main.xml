@@ -25,11 +25,11 @@
 
         <TableLayout
             android:id="@+id/cardView1"
-            android:layout_width="291dp"
-            android:layout_height="71dp"
-            android:layout_marginStart="15dp"
+            android:layout_width="372dp"
+            android:layout_height="56dp"
+            android:layout_marginStart="3dp"
             android:layout_marginTop="50dp"
-            android:layout_marginEnd="15dp"
+            android:layout_marginEnd="3dp"
             android:layout_marginBottom="15dp"
             android:orientation="horizontal"
             app:layout_constraintBottom_toTopOf="@+id/contenedorLista"
@@ -45,24 +45,24 @@
 
                 <EditText
                     android:id="@+id/busqueda"
-                    android:layout_width="250dp"
+                    android:layout_width="318dp"
                     android:layout_height="36dp"
                     android:background="@drawable/custom_input"
                     android:drawableStart="@drawable/ic_search_black_24dp"
                     android:drawablePadding="12dp"
                     android:ems="10"
                     android:hint="Buscar termino"
-                    android:importantForAutofill="no"
-                    android:inputType=""
                     android:paddingStart="12dp"
                     android:paddingEnd="12dp"
+                    android:importantForAutofill="no"
+                    android:inputType=""
                     android:textColor="@color/texto"
                     tools:ignore="LabelFor"
                     tools:targetApi="o" />
 
                 <ImageButton
                     android:id="@+id/imageButton5"
-                    android:layout_width="44dp"
+                    android:layout_width="39dp"
                     android:layout_height="44dp"
                     android:background="@color/wallpaper"
                     android:contentDescription="@string/todo"
@@ -74,14 +74,13 @@
 
             </TableRow>
 
-
         </TableLayout>
 
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/contenedorLista"
-            android:layout_width="286dp"
-            android:layout_height="244dp"
+            android:layout_width="275dp"
+            android:layout_height="456dp"
             android:layout_marginStart="5dp"
             android:layout_marginTop="5dp"
             android:layout_marginEnd="5dp"
