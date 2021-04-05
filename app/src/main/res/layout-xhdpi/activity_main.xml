@@ -23,6 +23,22 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0">
 
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="236dp"
+            android:layout_height="28dp"
+            android:layout_marginBottom="495dp"
+            android:text="EXTRA DENSIDAD"
+            android:textColor="@color/texto"
+            android:textSize="25sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardView1" />
+
+
+
         <TableLayout
             android:id="@+id/cardView1"
             android:layout_width="372dp"
@@ -48,7 +64,7 @@
                     android:layout_width="318dp"
                     android:layout_height="36dp"
                     android:background="@drawable/custom_input"
-                    android:drawableStart="@drawable/ic_search_black_24dp"
+                    android:drawableStart="@drawable/customer_search_icon"
                     android:drawablePadding="12dp"
                     android:ems="10"
                     android:hint="Buscar termino"
