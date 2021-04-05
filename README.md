@@ -1,7 +1,7 @@
 # test_Android
 proyecto de prueba, parte del proyecto de odontoApp
 
-(https://raw.githubusercontent.com/AKBiofrost/test_Android/master/assets/video)
+(https://raw.githubusercontent.com/AKBiofrost/test_Android/master/assets/presentacion.mp4)
  
 
 
